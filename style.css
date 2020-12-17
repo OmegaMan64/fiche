@@ -217,3 +217,85 @@ hr {
         font-size: 20px;
     }
 }
+
+/*Tech Skills*/
+
+.btn-gauche a {
+    font-size: 70px;
+    color: #FFF500;
+    position: absolute;
+    left: 0;
+    margin-left: 30px;
+    text-decoration: none;
+}
+
+.btn-nav a {
+    font-size: 70px;
+    color: #FFF500;
+    position: absolute;
+    right: 0;
+    margin-right: 30px;
+    text-decoration: none;
+}
+.myskill {
+      margin-top: -50px;
+    margin: 50px;
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(0, 0, 0, 0.7);
+    font-size: 30px;
+    text-align: justify;
+}
+
+/* PHOTO DES PROGRAMMES*/
+
+.myskp {
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    margin-top: 30px;
+}
+
+/* LES PHOTOS D */
+
+.droite {
+    display: flex;
+    flex-direction: column;
+}
+
+/* LES PHOTOS G */
+
+.gauche {
+    display: flex;
+    flex-direction: column;
+}
+
+/* COLORATION DES BARRES*/
+
+#rouge::-moz-progress-bar {
+    background-color: red;
+  }
+
+#vert::-moz-progress-bar {
+    background-color: green;
+}
+
+#jaune::-moz-progress-bar {
+    background-color: orange;
+}
+
+/* PLACER LES BARRES */
+
+.barred {
+    display: flex;
+    flex-direction: column;
+}
+
+.barreg {
+    display: flex;
+    flex-direction: column;
+}
+.barre {
+    margin-top: 30px;
+}
